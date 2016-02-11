@@ -9,6 +9,10 @@
             End If
         End If
         Dim result As String = ApiInterface.GetMessages(username)
-        MsgBox(String.Concat(username, " has ", result, " messages."))
+        If result = 1 Then
+            MsgBox(String.Concat(username, " has ", result, " message."))
+        Else
+            MsgBox(String.Concat(username, " has ", result, " messages."))
+        End If
     End Sub
 End Class
