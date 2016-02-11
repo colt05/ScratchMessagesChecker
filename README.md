@@ -5,3 +5,4 @@ http://stackoverflow.com/questions/17337343/how-to-make-a-get-httpwebrequest-in-
 https://scratch.mit.edu/discuss/topic/181366/  
 https://scratch.mit.edu/discuss/topic/181329/  
 http://wiki.scratch.mit.edu/wiki/Scratch_API_(2.0)  
+http://stackoverflow.com/questions/4316363/how-to-convert-system-io-stream-into-string-and-then-back-to-system-io-stream  
