@@ -1,5 +1,5 @@
 # ScratchMessagesChecker
-WIP
+The feature that checks whether the user exists works, but the actual message checker feature has not been tested.
 # Credits
 http://stackoverflow.com/questions/17337343/how-to-make-a-get-httpwebrequest-in-vb-net
 https://scratch.mit.edu/discuss/topic/181366/  
