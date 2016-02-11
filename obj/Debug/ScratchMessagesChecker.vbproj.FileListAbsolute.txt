@@ -1,0 +1,11 @@
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\bin\Debug\ScratchMessagesChecker.exe.config
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\bin\Debug\ScratchMessagesChecker.exe
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\bin\Debug\ScratchMessagesChecker.pdb
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\bin\Debug\ScratchMessagesChecker.xml
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.vbprojResolveAssemblyReference.cache
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.Form1.resources
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.Resources.resources
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.vbproj.GenerateResource.Cache
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.exe
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.xml
+c:\users\user1\documents\visual studio 2015\Projects\ScratchMessagesChecker\ScratchMessagesChecker\obj\Debug\ScratchMessagesChecker.pdb

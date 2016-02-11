@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ScratchMessagesChecker
+</name>
+</assembly>
+<members>
+<member name="M:ScratchMessagesChecker.ApiInterface.UserExists(System.String)">
+ <summary>
+ Checks if the user exists
+ </summary>
+ <param name="username">Username</param>
+ <returns>True if user exists or False if user does not exist</returns>
+</member>
+<member name="M:ScratchMessagesChecker.ApiInterface.GetMessages(System.String)">
+ <summary>
+ Gets amount of messages
+ </summary>
+ <param name="username">Username</param>
+ <returns>Message count</returns>
+</member>
+<member name="M:ScratchMessagesChecker.ApiInterface.GetRequest(System.String)">
+ <summary>
+ GET request
+ </summary>
+ <param name="URL">URL to request</param>
+ <returns>Response</returns>
+</member>
+<member name="T:ScratchMessagesChecker.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ScratchMessagesChecker.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ScratchMessagesChecker.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
