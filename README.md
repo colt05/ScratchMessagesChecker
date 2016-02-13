@@ -7,4 +7,4 @@ https://scratch.mit.edu/discuss/topic/181366/
 https://scratch.mit.edu/discuss/topic/181329/  
 http://wiki.scratch.mit.edu/wiki/Scratch_API_(2.0)  
 https://bytes.com/topic/net/answers/165235-system-io-stream-string  
-crontab.guru
+crontab.guru (for appveyor)
