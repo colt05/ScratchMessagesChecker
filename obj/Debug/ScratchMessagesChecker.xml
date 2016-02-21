@@ -6,26 +6,34 @@ ScratchMessagesChecker
 </name>
 </assembly>
 <members>
-<member name="M:ScratchMessagesChecker.ApiInterface.UserExists(System.String)">
+<member name="M:ScratchMessagesChecker.ApiInterface.UserExists(System.String,System.Boolean)">
  <summary>
- Checks if the user exists
+ Checks if the user exists.
  </summary>
  <param name="username">Username</param>
- <returns>True if user exists or False if user does not exist</returns>
+ <param name="CanReturnError">Can return "ERR_Scratch_Servers_Down" if the Scratch API is not working.</param>
+ <returns>True if user exists or False if user does not exist. If the Scratch API is not working, returns false by default.</returns>
 </member>
-<member name="M:ScratchMessagesChecker.ApiInterface.GetMessages(System.String)">
+<member name="M:ScratchMessagesChecker.ApiInterface.GetMessages(System.String,System.Boolean)">
  <summary>
  Gets amount of messages
  </summary>
  <param name="username">Username</param>
+ <param name="CanReturnError">Can return "ERR_Scratch_Servers_Down" if the Scratch API is not working.</param>
  <returns>Message count</returns>
 </member>
-<member name="M:ScratchMessagesChecker.ApiInterface.GetRequest(System.String)">
+<member name="M:ScratchMessagesChecker.ApiInterface.GetRequest(System.String,System.Boolean)">
  <summary>
  GET request
  </summary>
  <param name="URL">URL to request</param>
+ <param name="CanThrowException">If true, will throw ScratchServersDownException() if an error occurs. If false, will return "ERR_Scratch_Servers_Down".</param>
  <returns>Response</returns>
+</member>
+<member name="T:ScratchMessagesChecker.ScratchServersDownException">
+ <summary>
+ ScratchServersDownException means the Scratch API returned a 503 error (Scratch website down for making changes to the website) or (possibly) 404.
+ </summary>
 </member>
 <member name="T:ScratchMessagesChecker.My.Resources.Resources">
 <summary>
