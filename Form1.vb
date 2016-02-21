@@ -28,8 +28,7 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
-            Dim result As String = ApiInterface.GetRequest("https://scratch.mit.edu/")
-            If result = "ERR_Scratch_Servers_Down" Then
+            If ApiInterface.ScratchServersAreBroken() = True Then
                 Label2.Visible = True
                 Button1.Enabled = False
             End If

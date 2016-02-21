@@ -30,6 +30,12 @@ ScratchMessagesChecker
  <param name="CanThrowException">If true, will throw ScratchServersDownException() if an error occurs. If false, will return "ERR_Scratch_Servers_Down".</param>
  <returns>Response</returns>
 </member>
+<member name="M:ScratchMessagesChecker.ApiInterface.ScratchServersAreBroken">
+ <summary>
+ Checks if the Scratch Website is broken.
+ </summary>
+ <returns>True if the Scratch Servers are broken, false if they are working.</returns>
+</member>
 <member name="T:ScratchMessagesChecker.ScratchServersDownException">
  <summary>
  ScratchServersDownException means the Scratch API returned a 503 error (Scratch website down for making changes to the website) or (possibly) 404.

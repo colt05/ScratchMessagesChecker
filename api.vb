@@ -79,6 +79,21 @@ Public Class ApiInterface
         responseStream.Close()
         Return responseString
     End Function
+    ''' <summary>
+    ''' Checks if the Scratch Website is broken.
+    ''' </summary>
+    ''' <returns>True if the Scratch Servers are broken, false if they are working.</returns>
+    Public Shared Function ScratchServersAreBroken() As Boolean
+        Try
+            Dim result As String = ApiInterface.GetRequest("https://scratch.mit.edu/")
+            If result = "ERR_Scratch_Servers_Down" Then
+                Return True
+            Else
+                Return False
+            End If
+        Catch
+        End Try
+    End Function
 End Class
 ''' <summary>
 ''' ScratchServersDownException means the Scratch API returned a 503 error (Scratch website down for making changes to the website) or (possibly) 404.
