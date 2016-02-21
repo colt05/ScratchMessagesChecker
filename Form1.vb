@@ -16,6 +16,8 @@
             End If
         Catch ex As ScratchServersDownException
             MsgBox("The Scratch API is not working. Try again later.")
+        Catch ex As InvalidCastException 'internal server error handling
+            MsgBox("The Scratch API is not working. Try again later.")
         Catch ex As Exception
             MsgBox(String.Concat("Error: ", ex.Message))
         End Try
